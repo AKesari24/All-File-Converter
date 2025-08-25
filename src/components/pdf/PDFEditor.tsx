@@ -16,7 +16,7 @@ export function PDFEditor() {
       {/* Upload PDF */}
       {!pdfFile ? (
         <div className="bg-white/70 backdrop-blur-sm rounded-2xl shadow-xl p-8 border border-white/20">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Upload PDF to Edit</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Upload PDF to Edit(still in devlopment)</h2>
           
           <div className="border-2 border-dashed border-gray-300 rounded-2xl p-12 text-center hover:border-gray-400 transition-all duration-200">
             <Upload className="mx-auto h-16 w-16 text-gray-400 mb-4" />
